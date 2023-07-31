@@ -3,5 +3,5 @@
 ```
 -fork and clone the given repository
 
--setting up environ ment by creating react application via viasual studio
+-setting up environment by creating react application via Visual studio
 ```
