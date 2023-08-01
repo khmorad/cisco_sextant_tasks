@@ -1,12 +1,19 @@
 import logo from './logo.svg';
-import './App.css';
-
-import WebSocketComponent from './WebSocketComponent';
+import './componentStyling/App.css';
+import NavBar from './components/NavBar';
+import WebSocketComponent from './components/WebSocketComponent';
+import SystemIp from './components/SystemIp';
 function App() {
   return (
-    <div className="App">
+    <div className="wrapper">
+    <div className="container">
+      <NavBar/>
       <WebSocketComponent />
+      <SystemIp/>
+      
     </div>
+    </div>
+   
   );
 }
 

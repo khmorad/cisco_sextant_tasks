@@ -1,0 +1,16 @@
+.nav {
+    background-color: rgba(53, 158, 228, 0.74);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 9999;
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  .container{
+    padding: 20px 10px 10px 10px;
+  }

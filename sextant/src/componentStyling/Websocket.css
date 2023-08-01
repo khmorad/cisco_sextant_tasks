@@ -1,0 +1,17 @@
+.webwrapper{
+    padding: 10px 10px;
+}
+.webContainer{
+    background-color: rgb(255, 255, 255);
+    padding:20px 40px 100px 20px;
+    border-radius:4px;
+    box-shadow: 1px 3px 10px #9c9999; 
+    color: rgb(201, 194, 194);
+    transition: 0.5s;
+    
+}
+.webContainer:hover{
+
+    padding: 50px;
+    background-color: rgb(180, 23, 23);
+}
