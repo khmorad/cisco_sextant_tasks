@@ -33,10 +33,10 @@ const WebSocketComponent = () => {
   return (
     <div className="webwrapper">
 
-<div className='webContainer'>
-      <p>{message}</p>
+<div className='webContainer latency'>
+     
       <p>packet Latency</p>
-      <p>{latency} ms</p>
+      <p>  {latency} ms</p>
     </div>
     </div>
 
