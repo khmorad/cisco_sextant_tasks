@@ -1,15 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import '../componentStyling/NavBar.css';
+import '../componentStyling/Banner.css';
 import Clock from './Clock';
 
-export default function NavBar() {
+export default function Banner() {
   const [showClock, setShowClock] = useState(true);
 
   useEffect(() => {
+    // Define a function to handle window resize
     const handleWindowResize = () => {
+      // Check if the window width is 768 pixels or smaller
       if (window.innerWidth <= 768) {
+        // Hide the clock component on smaller screens
         setShowClock(false);
       } else {
+        // Show the clock component on larger screens
         setShowClock(true);
       }
     };
@@ -21,7 +25,7 @@ export default function NavBar() {
     return () => {
       window.removeEventListener('resize', handleWindowResize);
     };
-  }, []);
+  }, []); // Empty dependency array ensures the effect runs only once on mount
 
   return (
     <div className="nvContainer">

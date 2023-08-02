@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import './componentStyling/App.css';
-import NavBar from './components/NavBar';
+import './componentStyling/App.css'; // Import the main CSS file for your app
+import Banner from './components/Banner';
 import WebSocketComponent from './components/WebSocketComponent';
 import SystemIp from './components/SystemIp';
-import Clock from './components/Clock'; // Import the Clock component
 
 function App() {
   const [showClock, setShowClock] = useState(true);
 
   useEffect(() => {
     const handleWindowResize = () => {
+      // Check if the window width is 768 pixels or smaller
       if (window.innerWidth <= 768) {
+        // Hide the clock component on smaller screens
         setShowClock(false);
       } else {
+        // Show the clock component on larger screens
         setShowClock(true);
       }
     };
@@ -29,13 +31,17 @@ function App() {
   return (
     <div className="masterwrapper">
       <div className="mastercontainer">
+        {/* Render the Banner component */}
         <div className="component">
-          <NavBar />
+          <Banner />
         </div>
+        
+        {/* Render the WebSocketComponent component */}
         <div className="component">
           <WebSocketComponent />
         </div>
       
+        {/* Render the SystemIp component */}
         <div className="component">
           <SystemIp />
         </div>

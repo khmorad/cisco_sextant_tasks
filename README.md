@@ -12,4 +12,8 @@
 
 -Able to convert the timestamp received from the server to a
  more human-readable format
+
+ -integrated ipify api in order to receive the systems IPv4/IPv6
+
+ -finished with styling
 ```
