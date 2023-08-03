@@ -16,19 +16,7 @@ function App() {
         <Exhibit >
           <WebSocketComponent />
         </Exhibit>
-      
-        <Exhibit >
-          <SystemIp />
-        </Exhibit>
-        <Exhibit >
-          <WebSocketComponent />
-        </Exhibit>
-        <Exhibit >
-          <SystemIp />
-        </Exhibit>
-        <Exhibit >
-          <WebSocketComponent />
-        </Exhibit>
+        
         <Exhibit >
           <SystemIp />
         </Exhibit>
