@@ -8,13 +8,12 @@ const SystemIp = () => {
   const [ipv6, setIPv6] = useState(null); // State to hold the IPv6 address
 
   useEffect(() => {
-    fetchIPAddresses(); // Fetch IP addresses when the component mounts
+    fetchIPAddresses(); 
   }, []);
 
   const fetchIPAddresses = () => {
-    // Replace 'YOUR_API_KEY' with your actual API key from ipify.org (optional but recommended)
     const API_KEY = 'YOUR_API_KEY';
-    const API_URL = `https://api.ipify.org?format=json&apiKey=${API_KEY}`;
+    const API_URL = `https://api.ipify.org?format=json`;
 
     axios
       .get(API_URL)

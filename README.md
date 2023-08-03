@@ -13,7 +13,12 @@
 -Able to convert the timestamp received from the server to a
  more human-readable format
 
- -integrated ipify api in order to receive the systems IPv4/IPv6
-
- -finished with styling
+-finished with styling
+>app is now fully functional on cellphone
+```
+# cisco_task_three
+**following tasks are completed**
+```
+-integrated ipify api in order to receive the systems IPv4/IPv6
+>ubdated the component to recognize if the user has no IPv4/IPv6
 ```

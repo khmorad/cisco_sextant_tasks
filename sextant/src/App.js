@@ -20,6 +20,7 @@ function App() {
         <Exhibit >
           <SystemIp />
         </Exhibit>
+        
       </div>
     </div>
   );
