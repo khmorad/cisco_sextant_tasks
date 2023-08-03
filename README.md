@@ -22,3 +22,15 @@
 -integrated ipify api in order to receive the systems IPv4/IPv6
     -ubdated the component to recognize if the user has no IPv4/IPv6
 ```
+
+# cisco_task_four
+**following tasks are completed**
+```
+-since I connected websocket server and received
+ timestamp and determined packet latency in task two
+ I focused more on efficiency of the project
+
+-In task two I was using the timestamp from server.js as a clock
+ in my project which was rather ineficient 
+    - I implemented a clock with javascript functions
+```
