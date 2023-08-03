@@ -1,17 +1,48 @@
-.exhibit {
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background: #dadce0;
+  align-items: flex-start;
+  justify-content: center;
+}
+.exhibit{
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.exhibit:last-child {
+  margin-right: 0;
+}
+.masterwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mastercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the components horizontally */
+  flex-wrap: wrap; /* Allow components to wrap when exceeding screen width */
+}
+
+.component {
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  flex-basis: calc(33.33% - 20px); /* Adjust the width to fit three components in a row */
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .component {
+    flex-basis: calc(50% - 20px); /* Adjust the width to fit two components in a row on smaller screens */
   }
-  
-  .exhibit-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
-    
-  }
-  
-  .exhibit-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+}

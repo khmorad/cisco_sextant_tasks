@@ -4,6 +4,8 @@
   border: 0;
   outline: none;
   box-sizing: border-box;
+
+  
 }
 
 body {
@@ -33,4 +35,41 @@ body {
     flex-direction: column; /* Stack components vertically when screen brecomes smaller*/
     align-items: center; 
   }
+}
+
+
+
+
+/* css for scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+::-webkit-scrollbar-corner {
+  background: transparent; 
+}
+
+/* Curved bottom of scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+  background: transparent; 
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px 10px 10px 10px; 
 }
