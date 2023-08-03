@@ -14,11 +14,11 @@
  more human-readable format
 
 -finished with styling
-    <sub>#app is now fully functional on cellphone</sub>
+    -app is now fully functional on cellphone
 ```
 # cisco_task_three
 **following tasks are completed**
 ```
 -integrated ipify api in order to receive the systems IPv4/IPv6
-    <sub>#ubdated the component to recognize if the user has no IPv4/IPv6</sub>
+    -ubdated the component to recognize if the user has no IPv4/IPv6
 ```
