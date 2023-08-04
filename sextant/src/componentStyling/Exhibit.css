@@ -45,4 +45,9 @@ body {
   .component {
     flex-basis: calc(50% - 20px); /* Adjust the width to fit two components in a row on smaller screens */
   }
+  .exhibit{
+    margin: 3px;
+    padding: 20px;
+    border-radius: 10px;
+  }
 }

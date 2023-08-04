@@ -37,6 +37,7 @@ const WebSocketComponent = () => {
      
       <p>packet Latency</p>
       <p>  {latency} ms</p>
+      
     </div>
     </div>
 
