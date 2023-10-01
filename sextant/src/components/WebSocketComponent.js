@@ -12,7 +12,7 @@ const WebSocketComponent = () => {
     wsClient.onmessage = (event) => {
       const receivedTimestamp = parseInt(event.data);
       const responseTimestamp = new Date().getTime();
-      const currentLatency =receivedTimestamp- responseTimestamp;
+      const currentLatency = responseTimestamp - receivedTimestamp;
 
       // Set a threshold to filter out negative or very small latency values
       const minimumLatencyThreshold = 0; // Adjust this threshold value as needed
